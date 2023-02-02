@@ -98,4 +98,4 @@ Other parameters are ignored.
 
 ### Issues
 
-Images are not correctly display in Safari browsers.
+Images are not correctly displayed in Safari browsers.
