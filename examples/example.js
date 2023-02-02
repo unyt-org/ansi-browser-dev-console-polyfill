@@ -1,4 +1,4 @@
-import {enableFullSupport} from "../dist/main.min.js";
+import {enableFullSupport} from "https://cdn.jsdelivr.net/gh/unyt-org/ansi-browser-dev-console-polyfill/dist/main.min.js";
 
 enableFullSupport();
 

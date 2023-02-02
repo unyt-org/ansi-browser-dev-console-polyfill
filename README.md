@@ -10,10 +10,12 @@ This polyfill implementation closely follows the Chrome implementation, but has 
 
 ## Usage
 
+The module can be imported from <https://cdn.jsdelivr.net/gh/unyt-org/ansi-browser-dev-console-polyfill/dist/main.min.js>.
+
 You can use the `console` object exported from this module in place of the normal `globalThis.console`.
 
 ```typescript
-import {console} from "./main.ts";
+import {console} from "https://cdn.jsdelivr.net/gh/unyt-org/ansi-browser-dev-console-polyfill/dist/main.min.js";
 
 console.log('\x1b[32mGreen text')
 console.warn('\x1b[31mRed text')
@@ -26,7 +28,7 @@ There are also two methods for adding ANSI support to the global console:
 Enabling the polyfill will not have any effects in backend runtimes like deno.
 
 ```typescript
-import {enableFullSupport} from "./main.ts";
+import {enableFullSupport} from "https://cdn.jsdelivr.net/gh/unyt-org/ansi-browser-dev-console-polyfill/dist/main.min.js";
 enableFullSupport();
 // ANSI escape sequences are now supported in the global console!
 console.log('\x1b[32mGreen text'); 
